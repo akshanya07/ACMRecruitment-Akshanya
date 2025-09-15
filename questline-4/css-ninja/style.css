@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.left,
+.right {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h2 {
+    color: blue;
+}
