@@ -1,0 +1,15 @@
+Pattern hunt
+
+2, 6, 12, 20, ...
+
+0 + 2 = 2
+2 + 4 = 6
+6 + 6 = 12
+12 + 8 = 20
+20 + 10 = 30
+30 + 12 = 42
+
+By logic the pattern follows:
+        previous number + the next even number
+
+Therefore the next 2 numbers of the series are 30 and 42.
