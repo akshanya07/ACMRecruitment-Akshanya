@@ -1,0 +1,12 @@
+Debugging code
+
+problems facing now:
+       1. The limit of the smallest number is set to -9999999,hence numbers less than that is not considered. 
+       2. There was no limit given to the length of the list. So even if there is only 1 number, it will try to find the smallest and it is wrong
+       3. if a number repeats itself it will not be considered same and will be printed as the second largest
+
+Solution
+    1.limit the smallest and largest number to -infinity
+    2. add a if statement that if the length of the list is less than 2, dont consider the list.
+    3. add another if else statement so that repetition of numbers will be considered same
+    4. at the end add another if else to print the resut and show DNE when there is repition or any other error
